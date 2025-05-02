@@ -1,0 +1,13 @@
+# storing the students data in touple
+student=[
+         (1,"Ritesh",19),
+         (2,"Uday",19),
+         (3,"manish",20)
+]
+# displaying the student infortion
+for i in student:
+roll_num,name,age=i
+print(f"Roll number:{roll_num}")
+print(f"Name:{name}")
+print(f"Age:{age}")
+print()
