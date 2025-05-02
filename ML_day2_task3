@@ -1,0 +1,17 @@
+# Create a dictionary with roll numbers as keys and student names as values
+students = {
+    1: "Ritesh",
+    2: "Uday",
+    3: "Manish"
+}
+
+# Function to search for a name using roll number
+def search_student(roll_number):
+    if roll_number in students:
+        return students[roll_number]
+    else:
+        return "Student not found"
+
+# Test the function
+roll_number = int(input("Enter roll number: "))
+print("Student Name:", search_student(roll_number))
