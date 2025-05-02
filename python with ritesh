@@ -1,0 +1,17 @@
+# declaring the marks matrix
+marks=[
+       [90,85,80],            # student 1
+       [75,89,96],            # student 2
+       [67,88,76]             # student 3
+]
+
+# calculate the total and average marks for each student
+for i, studentmarks in enumerate(marks):                 #  enumerate is a function that returns both the index i and the value student_marks
+  total=sum(studentmarks)
+  average=total/len(studentmarks)
+  print(f"student {i+1}:")
+  print(f" marks:{studentmarks}")
+  print(f"total:{total}")
+  print(f"average:{average:.2f}")
+  print()
+  
